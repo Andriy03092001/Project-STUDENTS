@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Project_STUDENTS.DTO</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project STUDENTS.DataAccess\Project STUDENTS.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>
