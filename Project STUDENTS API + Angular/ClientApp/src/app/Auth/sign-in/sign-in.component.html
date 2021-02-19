@@ -1,0 +1,13 @@
+<div class="login-page">
+    <div class="form">
+        <h2>Вхід</h2>
+        <form class="login-form" #myForm="ngForm" (ngSubmit)="onSubmit();">
+            <input type="text" placeholder="Електронна пошта" [(ngModel)]="model.Email" name="Email" />
+            <input type="password" placeholder="Пароль" [(ngModel)]="model.Password" name="Password" />
+            <button type="submit" class="btn btn-primary my-btn">Увійти</button>
+            <p class="message">Ще не зареєстровані? <a [routerLink]="['/sign-up']">Зареєструватися</a></p>
+            <p class="message"><a [routerLink]="['/forgot-password']">Забули свій пароль?</a></p>
+
+        </form>
+    </div>
+</div>
